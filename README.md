@@ -87,11 +87,12 @@
 
 <br/>
 
+<!--
 <h2 align="center">🏆 GitHub Trophies</h2>
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Wajahat-Programmer&theme=onedark&no-frame=true&row=1&column=2" alt="GitHub Trophies" />
 </p>
-
+-->
 
 <!--
 **Wajahat-Programmer/Wajahat-Programmer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
