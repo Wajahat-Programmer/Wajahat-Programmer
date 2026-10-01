@@ -71,7 +71,7 @@ ICONS = {
 }
 
 # The playable board and its move list. The issue workflow stays in the repo either way.
-SHOW_LIVE_BOARD = False
+SHOW_LIVE_BOARD = True
 
 # The contribution snake is produced by the existing snake.yml workflow.
 SNAKE_URL = f"https://raw.githubusercontent.com/{USER}/{USER}/output/github-snake-dark.svg"
