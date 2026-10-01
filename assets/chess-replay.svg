@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071323"/>
+      <stop offset="0.55" stop-color="#0b2034"/>
+      <stop offset="1" stop-color="#0d2c3d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#49d6ec" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#49d6ec" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#49d6ec" fill-opacity="0.10"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="418" height="418" rx="18" fill="url(#bg)" stroke="#2c6480" stroke-width="1.5"/>
+  <clipPath id="card"><rect x="1" y="1" width="418" height="418" rx="18"/></clipPath>
+  <ellipse cx="344" cy="0" rx="189" ry="378" fill="url(#glow)" clip-path="url(#card)"/>
+  <rect x="1" y="1" width="418" height="418" rx="18" fill="url(#grid)"/>
+  <rect x="26" y="26" width="368" height="368" rx="12" fill="#0f2a40" stroke="#5ee6b8" stroke-opacity="0.55" stroke-width="1.5"/>
+  <rect x="34" y="34" width="44" height="44" fill="#1f6f86"/>
+  <rect x="78" y="34" width="44" height="44" fill="#123f58"/>
+  <rect x="122" y="34" width="44" height="44" fill="#1f6f86"/>
+  <rect x="166" y="34" width="44" height="44" fill="#123f58"/>
+  <rect x="210" y="34" width="44" height="44" fill="#1f6f86"/>
+  <rect x="254" y="34" width="44" height="44" fill="#123f58"/>
+  <rect x="298" y="34" width="44" height="44" fill="#1f6f86"/>
+  <rect x="342" y="34" width="44" height="44" fill="#123f58"/>
+  <rect x="34" y="78" width="44" height="44" fill="#123f58"/>
+  <rect x="78" y="78" width="44" height="44" fill="#1f6f86"/>
+  <rect x="122" y="78" width="44" height="44" fill="#123f58"/>
+  <rect x="166" y="78" width="44" height="44" fill="#1f6f86"/>
+  <rect x="210" y="78" width="44" height="44" fill="#123f58"/>
+  <rect x="254" y="78" width="44" height="44" fill="#1f6f86"/>
+  <rect x="298" y="78" width="44" height="44" fill="#123f58"/>
+  <rect x="342" y="78" width="44" height="44" fill="#1f6f86"/>
+  <rect x="34" y="122" width="44" height="44" fill="#1f6f86"/>
+  <rect x="78" y="122" width="44" height="44" fill="#123f58"/>
+  <rect x="122" y="122" width="44" height="44" fill="#1f6f86"/>
+  <rect x="166" y="122" width="44" height="44" fill="#123f58"/>
+  <rect x="210" y="122" width="44" height="44" fill="#1f6f86"/>
+  <rect x="254" y="122" width="44" height="44" fill="#123f58"/>
+  <rect x="298" y="122" width="44" height="44" fill="#1f6f86"/>
+  <rect x="342" y="122" width="44" height="44" fill="#123f58"/>
+  <rect x="34" y="166" width="44" height="44" fill="#123f58"/>
+  <rect x="78" y="166" width="44" height="44" fill="#1f6f86"/>
+  <rect x="122" y="166" width="44" height="44" fill="#123f58"/>
+  <rect x="166" y="166" width="44" height="44" fill="#1f6f86"/>
+  <rect x="210" y="166" width="44" height="44" fill="#123f58"/>
+  <rect x="254" y="166" width="44" height="44" fill="#1f6f86"/>
+  <rect x="298" y="166" width="44" height="44" fill="#123f58"/>
+  <rect x="342" y="166" width="44" height="44" fill="#1f6f86"/>
+  <rect x="34" y="210" width="44" height="44" fill="#1f6f86"/>
+  <rect x="78" y="210" width="44" height="44" fill="#123f58"/>
+  <rect x="122" y="210" width="44" height="44" fill="#1f6f86"/>
+  <rect x="166" y="210" width="44" height="44" fill="#123f58"/>
+  <rect x="210" y="210" width="44" height="44" fill="#1f6f86"/>
+  <rect x="254" y="210" width="44" height="44" fill="#123f58"/>
+  <rect x="298" y="210" width="44" height="44" fill="#1f6f86"/>
+  <rect x="342" y="210" width="44" height="44" fill="#123f58"/>
+  <rect x="34" y="254" width="44" height="44" fill="#123f58"/>
+  <rect x="78" y="254" width="44" height="44" fill="#1f6f86"/>
+  <rect x="122" y="254" width="44" height="44" fill="#123f58"/>
+  <rect x="166" y="254" width="44" height="44" fill="#1f6f86"/>
+  <rect x="210" y="254" width="44" height="44" fill="#123f58"/>
+  <rect x="254" y="254" width="44" height="44" fill="#1f6f86"/>
+  <rect x="298" y="254" width="44" height="44" fill="#123f58"/>
+  <rect x="342" y="254" width="44" height="44" fill="#1f6f86"/>
+  <rect x="34" y="298" width="44" height="44" fill="#1f6f86"/>
+  <rect x="78" y="298" width="44" height="44" fill="#123f58"/>
+  <rect x="122" y="298" width="44" height="44" fill="#1f6f86"/>
+  <rect x="166" y="298" width="44" height="44" fill="#123f58"/>
+  <rect x="210" y="298" width="44" height="44" fill="#1f6f86"/>
+  <rect x="254" y="298" width="44" height="44" fill="#123f58"/>
+  <rect x="298" y="298" width="44" height="44" fill="#1f6f86"/>
+  <rect x="342" y="298" width="44" height="44" fill="#123f58"/>
+  <rect x="34" y="342" width="44" height="44" fill="#123f58"/>
+  <rect x="78" y="342" width="44" height="44" fill="#1f6f86"/>
+  <rect x="122" y="342" width="44" height="44" fill="#123f58"/>
+  <rect x="166" y="342" width="44" height="44" fill="#1f6f86"/>
+  <rect x="210" y="342" width="44" height="44" fill="#123f58"/>
+  <rect x="254" y="342" width="44" height="44" fill="#1f6f86"/>
+  <rect x="298" y="342" width="44" height="44" fill="#123f58"/>
+  <rect x="342" y="342" width="44" height="44" fill="#1f6f86"/>
+  <g transform="translate(364.0 67.4)"><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♜&#xFE0E;</text></g>
+  <g transform="translate(320.0 67.4)"><animateTransform attributeName="transform" type="translate" values="320.0 67.4;320.0 67.4;276.0 155.4;276.0 155.4;188.0 111.4;188.0 111.4;100.0 67.4;100.0 67.4" keyTimes="0.0000;0.3187;0.3330;0.7866;0.8009;0.8386;0.8529;1.0000" dur="36.55s" repeatCount="indefinite"/><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♞&#xFE0E;</text></g>
+  <g transform="translate(276.0 67.4)"><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♝&#xFE0E;</text></g>
+  <g transform="translate(232.0 67.4)"><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♚&#xFE0E;</text></g>
+  <g transform="translate(188.0 67.4)"><animateTransform attributeName="transform" type="translate" values="188.0 67.4;188.0 67.4;232.0 111.4;232.0 111.4;232.0 155.4;232.0 155.4" keyTimes="0.0000;0.3707;0.3850;0.7346;0.7489;1.0000" dur="36.55s" repeatCount="indefinite"/><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♛&#xFE0E;</text></g>
+  <g transform="translate(144.0 67.4)"><animateTransform attributeName="transform" type="translate" values="144.0 67.4;144.0 67.4;320.0 243.4;320.0 243.4;276.0 287.4;276.0 287.4" keyTimes="0.0000;0.1628;0.1771;0.2148;0.2291;1.0000" dur="36.55s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.2518;0.2551;1.0000" dur="36.55s" repeatCount="indefinite" /><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♝&#xFE0E;</text></g>
+  <g transform="translate(100.0 67.4)"><animateTransform attributeName="transform" type="translate" values="100.0 67.4;100.0 67.4;188.0 111.4;188.0 111.4" keyTimes="0.0000;0.5787;0.5930;1.0000" dur="36.55s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.6676;0.6709;1.0000" dur="36.55s" repeatCount="indefinite" /><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♞&#xFE0E;</text></g>
+  <g transform="translate(56.0 67.4)"><animateTransform attributeName="transform" type="translate" values="56.0 67.4;56.0 67.4;188.0 67.4;188.0 67.4;188.0 111.4;188.0 111.4" keyTimes="0.0000;0.6306;0.6449;0.6826;0.6969;1.0000" dur="36.55s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.7716;0.7749;1.0000" dur="36.55s" repeatCount="indefinite" /><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♜&#xFE0E;</text></g>
+  <g transform="translate(364.0 111.4)"><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(320.0 111.4)"><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(276.0 111.4)"><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(232.0 111.4)"><animateTransform attributeName="transform" type="translate" values="232.0 111.4;232.0 111.4;232.0 199.4;232.0 199.4" keyTimes="0.0000;0.0588;0.0731;1.0000" dur="36.55s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.1998;0.2031;1.0000" dur="36.55s" repeatCount="indefinite" /><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(188.0 111.4)"><animateTransform attributeName="transform" type="translate" values="188.0 111.4;188.0 111.4;188.0 155.4;188.0 155.4;232.0 199.4;232.0 199.4" keyTimes="0.0000;0.1108;0.1251;0.2668;0.2811;1.0000" dur="36.55s" repeatCount="indefinite"/><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(144.0 111.4)"><animateTransform attributeName="transform" type="translate" values="144.0 111.4;144.0 111.4;144.0 155.4;144.0 155.4;100.0 199.4;100.0 199.4" keyTimes="0.0000;0.4227;0.4370;0.5267;0.5410;1.0000" dur="36.55s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.5637;0.5670;1.0000" dur="36.55s" repeatCount="indefinite" /><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(100.0 111.4)"><animateTransform attributeName="transform" type="translate" values="100.0 111.4;100.0 111.4;100.0 199.4;100.0 199.4" keyTimes="0.0000;0.4747;0.4890;1.0000" dur="36.55s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.5117;0.5150;1.0000" dur="36.55s" repeatCount="indefinite" /><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(56.0 111.4)"><text font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(364.0 331.4)"><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(320.0 331.4)"><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(276.0 331.4)"><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(232.0 331.4)"><animateTransform attributeName="transform" type="translate" values="232.0 331.4;232.0 331.4;232.0 243.4;232.0 243.4" keyTimes="0.0000;0.0328;0.0471;1.0000" dur="36.55s" repeatCount="indefinite"/><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(188.0 331.4)"><animateTransform attributeName="transform" type="translate" values="188.0 331.4;188.0 331.4;188.0 243.4;188.0 243.4;232.0 199.4;232.0 199.4" keyTimes="0.0000;0.1368;0.1511;0.1888;0.2031;1.0000" dur="36.55s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.2778;0.2811;1.0000" dur="36.55s" repeatCount="indefinite" /><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(144.0 331.4)"><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(100.0 331.4)"><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(56.0 331.4)"><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g transform="translate(364.0 375.4)"><animateTransform attributeName="transform" type="translate" values="364.0 375.4;364.0 375.4;188.0 375.4;188.0 375.4;188.0 67.4;188.0 67.4" keyTimes="0.0000;0.7086;0.7229;0.8646;0.8789;1.0000" dur="36.55s" repeatCount="indefinite"/><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♜&#xFE0E;</text></g>
+  <g transform="translate(320.0 375.4)"><animateTransform attributeName="transform" type="translate" values="320.0 375.4;320.0 375.4;276.0 287.4;276.0 287.4" keyTimes="0.0000;0.0848;0.0991;1.0000" dur="36.55s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.2258;0.2291;1.0000" dur="36.55s" repeatCount="indefinite" /><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♞&#xFE0E;</text></g>
+  <g transform="translate(276.0 375.4)"><animateTransform attributeName="transform" type="translate" values="276.0 375.4;276.0 375.4;144.0 243.4;144.0 243.4;100.0 199.4;100.0 199.4;188.0 111.4;188.0 111.4" keyTimes="0.0000;0.2927;0.3070;0.5527;0.5670;0.7606;0.7749;1.0000" dur="36.55s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.7976;0.8009;1.0000" dur="36.55s" repeatCount="indefinite" /><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♝&#xFE0E;</text></g>
+  <g transform="translate(232.0 375.4)"><animateTransform attributeName="transform" type="translate" values="232.0 375.4;232.0 375.4;144.0 375.4;144.0 375.4" keyTimes="0.0000;0.6047;0.6189;1.0000" dur="36.55s" repeatCount="indefinite"/><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♚&#xFE0E;</text></g>
+  <g transform="translate(188.0 375.4)"><animateTransform attributeName="transform" type="translate" values="188.0 375.4;188.0 375.4;276.0 287.4;276.0 287.4;100.0 287.4;100.0 287.4;100.0 67.4;100.0 67.4" keyTimes="0.0000;0.2408;0.2551;0.3447;0.3590;0.8126;0.8269;1.0000" dur="36.55s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.8496;0.8529;1.0000" dur="36.55s" repeatCount="indefinite" /><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♛&#xFE0E;</text></g>
+  <g transform="translate(144.0 375.4)"><animateTransform attributeName="transform" type="translate" values="144.0 375.4;144.0 375.4;320.0 199.4;320.0 199.4" keyTimes="0.0000;0.4487;0.4630;1.0000" dur="36.55s" repeatCount="indefinite"/><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♝&#xFE0E;</text></g>
+  <g transform="translate(100.0 375.4)"><animateTransform attributeName="transform" type="translate" values="100.0 375.4;100.0 375.4;144.0 287.4;144.0 287.4;100.0 199.4;100.0 199.4" keyTimes="0.0000;0.3967;0.4110;0.5007;0.5150;1.0000" dur="36.55s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.5377;0.5410;1.0000" dur="36.55s" repeatCount="indefinite" /><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♞&#xFE0E;</text></g>
+  <g transform="translate(56.0 375.4)"><animateTransform attributeName="transform" type="translate" values="56.0 375.4;56.0 375.4;188.0 375.4;188.0 375.4;188.0 111.4;188.0 111.4" keyTimes="0.0000;0.6047;0.6189;0.6566;0.6709;1.0000" dur="36.55s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0.0000;0.6936;0.6969;1.0000" dur="36.55s" repeatCount="indefinite" /><text font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♜&#xFE0E;</text></g>
+  <text x="53.0" y="408" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">A</text>
+  <text x="97.0" y="408" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">B</text>
+  <text x="141.0" y="408" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">C</text>
+  <text x="185.0" y="408" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">D</text>
+  <text x="229.0" y="408" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">E</text>
+  <text x="273.0" y="408" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">F</text>
+  <text x="317.0" y="408" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">G</text>
+  <text x="361.0" y="408" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">H</text>
+  <text x="11" y="59.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">8</text>
+  <text x="11" y="103.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">7</text>
+  <text x="11" y="147.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">6</text>
+  <text x="11" y="191.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">5</text>
+  <text x="11" y="235.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">4</text>
+  <text x="11" y="279.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">3</text>
+  <text x="11" y="323.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">2</text>
+  <text x="11" y="367.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">1</text>
+</svg>

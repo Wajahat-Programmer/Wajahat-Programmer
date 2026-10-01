@@ -1,5 +1,7 @@
 <p align="center"><sub>AN ORIGINAL PROFILE · WAJAHAT-PROGRAMMER</sub></p>
 
+<p align="center"><img src="./assets/terminal.svg" alt="Terminal: Wajahat Ali Khan, Sr. Software Engineer, Islamabad, Pakistan" width="100%"/></p>
+
 <p align="center"><img src="./assets/hero.svg" alt="Wajahat Ali Khan, Sr. Software Engineer" width="100%"/></p>
 
 <p align="center"><b>Sr. Software Engineer</b> · Islamabad, Pakistan</p>
@@ -24,7 +26,7 @@
 
 ## Production palette
 
-<p align="center"><img src="./assets/tech.svg" alt="Tech stack: JavaScript, TypeScript, Python, Java, React, React Native, Redux, Tailwind CSS, PyQt, Node.js, MongoDB, MySQL, PostgreSQL, WebSockets, VideoSDK, AWS, Docker, Git, Linux, Figma, ClickUp, Jira" width="100%"/></p>
+<p align="center"><img src="./assets/tech.svg" alt="Tech stack: JavaScript, TypeScript, Python, Java, React, React Native, Redux, Tailwind CSS, PyQt, Node.js, MongoDB, MySQL, PostgreSQL, WebSockets, VideoSDK, AWS, Docker, Proxmox, Git, Linux, Cursor, Claude Code, Antigravity, Figma, ClickUp, Jira" width="100%"/></p>
 
 <p align="center"><img src="./assets/languages.svg" alt="Language stack, weighted by repository" width="100%"/></p>
 
@@ -32,32 +34,28 @@
 
 <p align="center">───── ◆ ─────</p>
 
-## Featured reel
-
-<p align="center"><img src="./assets/featured.svg" alt="Featured repositories" width="100%"/></p>
-
-<table>
-  <tr>
-    <td width="25%" valign="top"><a href="https://github.com/Wajahat-Programmer/NeuroEHR"><b>NeuroEHR</b></a><br/><br/>Description coming soon.<br/><br/><sub>TypeScript</sub></td>
-    <td width="25%" valign="top"><a href="https://github.com/Wajahat-Programmer/rcm-demo"><b>rcm-demo</b></a><br/><br/>Description coming soon.<br/><br/><sub>JavaScript</sub></td>
-    <td width="25%" valign="top"><a href="https://github.com/Wajahat-Programmer/rpm-demo"><b>rpm-demo</b></a><br/><br/>Description coming soon.<br/><br/><sub>JavaScript</sub></td>
-    <td width="25%" valign="top"><a href="https://github.com/Wajahat-Programmer/negative-testing-ccda"><b>negative-testing-ccda</b></a><br/><br/>Description coming soon.<br/><br/><sub>JavaScript</sub></td>
-  </tr>
-</table>
-
-<p align="center">───── ◆ ─────</p>
-
 ## Contribution trail
 
-<p align="center"><img src="./assets/trail.svg" alt="59 contributions in the last year" width="100%"/></p>
+<p align="center"><img src="./assets/trail.svg" alt="60 contributions in the last year" width="100%"/></p>
+
+<p align="center"><img src="./assets/shooter.svg" alt="Contribution grid as a space shooter game" width="100%"/></p>
+
+<p align="center"><sub>A snake eats the year, then a ship clears every active day. Both replay on a loop.</sub></p>
 
 <p align="center">───── ◆ ─────</p>
 
 ## Play the next move
 
-<p align="center"><img src="./assets/chess.svg" alt="Chess board. White to move." width="400"/></p>
+<table>
+  <tr>
+    <td width="50%" align="center"><img src="./assets/chess-replay.svg" alt="A chess board replaying The Opera Game, Paris 1858" width="100%"/><br/><sub>REPLAY · The Opera Game, Paris 1858. Plays by itself.</sub></td>
+    <td width="50%" align="center"><a href="#choose-your-move"><img src="./assets/chess.svg" alt="Live chess board. White to move." width="100%"/></a><br/><sub>LIVE BOARD · White to move. Pick your move from the list below.</sub></td>
+  </tr>
+</table>
 
-<p align="center"><b>White to move.</b> Anyone with a GitHub account can play.</p>
+### Choose your move
+
+<p align="center"><b>White to move.</b> Anyone with a GitHub account can play. A README cannot run a game, so pieces cannot be dragged: each move below is a link.</p>
 
 <p align="center"><sub>1. Click a move in the table below. 2. On the page that opens, press the green <b>Create</b> button without changing anything. 3. Come back in about a minute and refresh: the board has moved.</sub></p>
 
