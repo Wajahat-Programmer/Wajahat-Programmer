@@ -17,6 +17,7 @@ import os
 import re
 import urllib.parse
 import urllib.request
+import textwrap
 from collections import Counter
 from html import escape
 
@@ -29,7 +30,7 @@ except ImportError:  # python-chess not installed
 
 USER = "Wajahat-Programmer"
 NAME = "Wajahat Ali Khan"
-ROLE = "Head of Software Division"
+ROLE = "Sr. Software Engineer"
 COMPANY = "Revive Medical Technologies"
 LOCATION = "Islamabad, Pakistan"
 TAGLINE = "RPM, EHR integration, RCM and AI software for medical practices."
@@ -52,18 +53,37 @@ TECH = [
     ("Design and delivery", ["Figma", "ClickUp", "Jira"]),
 ]
 
+# Shown as chips on the hero card and as tiles under "In the current cut".
+HIGHLIGHTS = [
+    ("JavaScript", "Web apps and services"),
+    ("TypeScript", "Typed front ends, APIs"),
+    ("React", "Web applications"),
+    ("React Native", "iOS and Android apps"),
+]
+
+# Simple Icons slugs (https://simpleicons.org). Tools without one get a dot.
+ICONS = {
+    "JavaScript": "javascript", "TypeScript": "typescript", "Python": "python",
+    "Java": "openjdk", "React": "react", "React Native": "react", "Redux": "redux",
+    "Tailwind CSS": "tailwindcss", "PyQt": "qt", "Node.js": "nodedotjs",
+    "MongoDB": "mongodb", "MySQL": "mysql", "PostgreSQL": "postgresql",
+    "Docker": "docker", "Git": "git", "Linux": "linux", "Figma": "figma",
+    "ClickUp": "clickup", "Jira": "jira",
+}
+
 # The contribution snake is produced by the existing snake.yml workflow.
 SNAKE_URL = f"https://raw.githubusercontent.com/{USER}/{USER}/output/github-snake-dark.svg"
 
 # ----------------------------------------------------------------- palette
 
-BG_A, BG_B, BG_C = "#05201d", "#0b3a35", "#0a2836"
-EDGE = "#1f8f7f"
+BG_A, BG_B, BG_C = "#071323", "#0b2034", "#0d2c3d"
+EDGE = "#2c6480"
 MINT = "#5ee6b8"
-TEXT = "#f2fffa"
-MUTED = "#8fbdb3"
-PANEL = "#082a27"
-PANEL_EDGE = "#1b6f63"
+CYAN = "#49d6ec"
+TEXT = "#f2fbff"
+MUTED = "#9cc6d6"
+PANEL = "#0f2a40"
+PANEL_EDGE = "#2c6480"
 SANS = "'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
 MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
 
@@ -72,10 +92,11 @@ LANG_COLORS = {
     "CSS": "#663399", "Python": "#3572A5", "Java": "#b07219",
     "Handlebars": "#f7931e", "Kotlin": "#A97BFF", "Swift": "#F05138",
 }
-LEVELS = ["#103330", "#1c6b5c", "#2ba486", "#4bd3aa", "#93f7d6"]
+LEVELS = ["#12304a", "#1d6b78", "#2ba58c", "#4bd3aa", "#93f7d6"]
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ASSETS = os.path.join(HERE, "assets")
+ICON_DIR = os.path.join(HERE, "icons")
 W = 840
 
 # ----------------------------------------------------------------- fetch
@@ -130,11 +151,11 @@ def frame(height, body, width=W):
       <stop offset="1" stop-color="{BG_C}"/>
     </linearGradient>
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="{MINT}" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="{MINT}" stop-opacity="0"/>
+      <stop offset="0" stop-color="{CYAN}" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="{CYAN}" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="{MINT}" fill-opacity="0.10"/>
+      <circle cx="2" cy="2" r="1" fill="{CYAN}" fill-opacity="0.10"/>
     </pattern>
   </defs>
   <rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="18" fill="url(#bg)" stroke="{EDGE}" stroke-width="1.5"/>
@@ -169,6 +190,42 @@ def lang_color(lang):
     return LANG_COLORS.get(lang, MINT)
 
 
+def icon(name, x, y, size=15):
+    """Brand icon for a tool, cached in icons/. Falls back to a dot."""
+    slug = ICONS.get(name)
+    path = os.path.join(ICON_DIR, f"{slug}.svg")
+    if slug and not os.path.exists(path):
+        try:
+            svg = fetch(f"https://cdn.simpleicons.org/{slug}")
+            os.makedirs(ICON_DIR, exist_ok=True)
+            with open(path, "w", encoding="utf-8", newline="\n") as fh:
+                fh.write(svg)
+        except OSError:
+            slug = None
+    if not slug:
+        return f'  <circle cx="{x + size / 2}" cy="{y + size / 2}" r="3.5" fill="{MINT}"/>'
+    with open(path, encoding="utf-8") as fh:
+        svg = fh.read()
+    d = re.search(r'<path d="([^"]+)"', svg).group(1)
+    fill = re.search(r'fill="#([0-9A-Fa-f]{6})"', svg).group(1)
+    r, g, b = (int(fill[i:i + 2], 16) for i in (0, 2, 4))
+    if 0.2126 * r + 0.7152 * g + 0.0722 * b < 110:  # too dark for the card
+        fill = "e6f3f8"
+    return (f'  <svg x="{x}" y="{y}" width="{size}" height="{size}" viewBox="0 0 24 24">'
+            f'<path d="{d}" fill="#{fill}"/></svg>')
+
+
+def chip(name, x, y, height=27):
+    """Icon + label pill. Returns (markup, width)."""
+    w = int(len(name) * 7.6 + 46)
+    return "\n".join([
+        f'  <rect x="{x}" y="{y}" width="{w}" height="{height}" rx="{height / 2}" fill="{PANEL}" '
+        f'fill-opacity="0.85" stroke="{PANEL_EDGE}"/>',
+        icon(name, x + 11, y + (height - 15) / 2),
+        text(x + 33, y + height / 2 + 4.5, name, size=12.5),
+    ]), w
+
+
 # ----------------------------------------------------------------- cards
 
 
@@ -180,16 +237,15 @@ def card_hero(user, repos, avatar, days, langs):
         '  <clipPath id="av"><circle cx="92" cy="122" r="50"/></clipPath>',
         f'  <image href="data:image/png;base64,{b64}" x="42" y="72" width="100" height="100" clip-path="url(#av)"/>',
         f'  <circle cx="92" cy="122" r="51.5" fill="none" stroke="{MINT}" stroke-width="2.5"/>',
+        f'  <rect x="166" y="70" width="46" height="4" rx="2" fill="{MINT}"/>',
         text(166, 112, NAME, size=33, weight=700),
         text(166, 139, f"{ROLE} · {COMPANY}", size=15, fill=MUTED),
     ]
     x = 166
-    for lang, _ in langs[:3]:
-        w = int(len(lang) * 7.4 + 34)
-        out.append(f'  <rect x="{x}" y="156" width="{w}" height="26" rx="13" fill="{PANEL}" stroke="{PANEL_EDGE}"/>')
-        out.append(f'  <circle cx="{x + 15}" cy="169" r="4" fill="{lang_color(lang)}"/>')
-        out.append(text(x + 25, 173.5, lang, size=12.5))
-        x += w + 10
+    for name, _ in HIGHLIGHTS:
+        markup, w = chip(name, x, 156, height=26)
+        out.append(markup)
+        x += w + 8
     out += [
         text(W - 40, 124, f"{len(repos)}", size=52, weight=700, fill=MINT, anchor="end"),
         label(W - 40, 148, "public repositories", anchor="end"),
@@ -198,15 +254,54 @@ def card_hero(user, repos, avatar, days, langs):
     return frame(226, "\n".join(out))
 
 
+def card_pov(repos, days):
+    quote = ("Software for a medical practice has one job: get the device reading into "
+             "the chart and the claim out the door, without a clinician typing it twice.")
+    note = "Small teams, tested edge cases, and code that is safe to run near patient data."
+    out = [
+        label(40, 42, "the point of view"),
+        f'  <text x="36" y="132" font-family="Georgia, serif" font-size="78" fill="{MINT}" fill-opacity="0.9">&#8220;</text>',
+    ]
+    y = 104
+    for line in textwrap.wrap(quote, 40):
+        out.append(text(84, y, line, size=19.5, weight=600))
+        y += 28
+    out.append(f'  <rect x="84" y="{y - 6}" width="46" height="3" rx="1.5" fill="{CYAN}"/>')
+    y += 20
+    for line in textwrap.wrap(note, 58):
+        out.append(text(84, y, line, size=13, fill=MUTED))
+        y += 19
+    height = max(y + 22, 268)
+
+    px, pw = 548, 252
+    out.append(panel(px, 34, pw, height - 68))
+    out.append(label(px + 20, 62, "profile", fill=MINT))
+    ry = 90
+    for key, value in (("role", ROLE), ("based", LOCATION), ("focus", FOCUS)):
+        out.append(label(px + 20, ry, key, size=9))
+        out.append(text(px + 84, ry, value, size=13, weight=600))
+        ry += 26
+    total = sum(d["count"] for d in days)
+    tw = (pw - 40 - 12) / 2
+    for i, (number, caption) in enumerate(((len(repos), "public repos"), (f"{total:,}", "contributions"))):
+        tx = px + 20 + i * (tw + 12)
+        out.append(f'  <rect x="{tx}" y="{ry}" width="{tw}" height="62" rx="10" fill="{BG_A}" '
+                   f'fill-opacity="0.7" stroke="{PANEL_EDGE}"/>')
+        out.append(text(tx + tw / 2, ry + 30, str(number), size=24, weight=700, fill=MINT, anchor="middle"))
+        out.append(label(tx + tw / 2, ry + 49, caption, anchor="middle", size=7.5))
+    return frame(int(height), "\n".join(out))
+
+
 def card_highlights(repos, langs):
     out = [label(40, 40, "highlights")]
-    cw, gap, x = 240, 20, 40
-    for lang, n in langs[:3]:
+    gap = 14
+    cw = (W - 80 - gap * (len(HIGHLIGHTS) - 1)) / len(HIGHLIGHTS)
+    x = 40
+    for name, note in HIGHLIGHTS:
         out.append(panel(x, 56, cw, 92))
-        out.append(f'  <circle cx="{x + 22}" cy="86" r="5" fill="{lang_color(lang)}"/>')
-        out.append(text(x + 36, 92, lang, size=19, weight=700))
-        noun = "repository" if n == 1 else "repositories"
-        out.append(text(x + 20, 124, f"Main language in {n} {noun}", size=12.5, fill=MUTED))
+        out.append(icon(name, x + 16, 74, size=20))
+        out.append(text(x + 44, 91, name, size=16.5, weight=700))
+        out.append(text(x + 16, 126, note, size=12, fill=MUTED))
         x += cw + gap
     return frame(176, "\n".join(out))
 
@@ -267,12 +362,10 @@ def card_tech():
         out.append(label(40, y + 4, group, size=9.5))
         x = 236
         for item in items:
-            w = int(len(item) * 7.6 + 26)
-            if x + w > W - 36:
+            if x + int(len(item) * 7.6 + 46) > W - 36:
                 x, y = 236, y + 36
-            out.append(f'  <rect x="{x}" y="{y - 14}" width="{w}" height="27" rx="13.5" fill="{PANEL}" '
-                       f'fill-opacity="0.8" stroke="{PANEL_EDGE}"/>')
-            out.append(text(x + w / 2, y + 4.5, item, size=12.5, anchor="middle"))
+            markup, w = chip(item, x, y - 14)
+            out.append(markup)
             x += w + 8
         y += 40
     return frame(y - 4, "\n".join(out))
@@ -334,7 +427,7 @@ def card_chess(placement, last=None):
         for ch in rank:
             for _ in range(int(ch) if ch.isdigit() else 1):
                 name = "abcdefgh"[f] + str(8 - r)
-                fill = "#1d7566" if (r + f) % 2 == 0 else "#0e4a42"
+                fill = "#1f6f86" if (r + f) % 2 == 0 else "#123f58"
                 out.append(f'  <rect x="{pad + f * sq}" y="{pad + r * sq}" width="{sq}" height="{sq}" fill="{fill}"/>')
                 if name in marked:
                     out.append(f'  <rect x="{pad + f * sq + 1.5}" y="{pad + r * sq + 1.5}" width="{sq - 3}" '
@@ -345,8 +438,8 @@ def card_chess(placement, last=None):
             white = ch.isupper()
             out.append(
                 f'  <text x="{pad + (f - 1) * sq + sq / 2}" y="{pad + r * sq + sq * 0.76:.1f}" font-size="33" '
-                f'text-anchor="middle" fill="{"#f2fffa" if white else "#06211e"}" '
-                f'stroke="{"#06211e" if white else "#93f7d6"}" stroke-width="0.9" '
+                f'text-anchor="middle" fill="{"#f2fbff" if white else "#071323"}" '
+                f'stroke="{"#071323" if white else "#93f7d6"}" stroke-width="0.9" '
                 f"font-family=\"'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif\">"
                 f'{glyph[ch.lower()]}&#xFE0E;</text>')
     for i, letter in enumerate("abcdefgh"):
@@ -364,7 +457,7 @@ DIVIDER = '<p align="center">───── ◆ ─────</p>'
 def issue_url(command):
     query = urllib.parse.urlencode({
         "title": f"chess|{command}",
-        "body": 'Press "Submit new issue" to play. No need to change anything here.',
+        "body": "Press the green Create button to play this move. No need to change anything here.",
     })
     return f"https://github.com/{USER}/{USER}/issues/new?{query}"
 
@@ -397,7 +490,9 @@ def chess_section(game):
 
 <p align="center"><img src="./assets/chess.svg" alt="Chess board. {status}." width="400"/></p>
 
-<p align="center"><b>{status}.</b> Anyone can play. Pick a move below, press "Submit new issue", and the board updates in about a minute.</p>
+<p align="center"><b>{status}.</b> Anyone with a GitHub account can play.</p>
+
+<p align="center"><sub>1. Click a move in the table below. 2. On the page that opens, press the green <b>Create</b> button without changing anything. 3. Come back in about a minute and refresh: the board has moved.</sub></p>
 
 | Piece | From | Move to |
 | --- | --- | --- |
@@ -419,7 +514,7 @@ def readme(user, repos, featured, langs, days, game):
         for r in featured[:4])
     return f"""<p align="center"><sub>AN ORIGINAL PROFILE · {USER.upper()}</sub></p>
 
-<p align="center"><img src="./assets/hero.svg" alt="{NAME}, {ROLE} at {COMPANY}" width="100%"/></p>
+<p align="center"><img src="./assets/hero.svg" alt="{NAME}, {ROLE}" width="100%"/></p>
 
 <p align="center"><b>{ROLE}</b> · {LOCATION}</p>
 
@@ -429,24 +524,7 @@ def readme(user, repos, featured, langs, days, game):
 
 {DIVIDER}
 
-<table>
-  <tr>
-    <td width="62%" valign="top">
-      <h2>The point of view</h2>
-      <blockquote>Software for a medical practice has one job: get the device reading into the chart and the claim out the door, without a clinician typing it twice.</blockquote>
-      <sub>Small teams, tested edge cases, and code that is safe to run near patient data.</sub>
-    </td>
-    <td width="38%" valign="top">
-      <sub><b>PROFILE</b></sub><br/><br/>
-      <sub>ROLE · {ROLE}</sub><br/>
-      <sub>BASED · {LOCATION}</sub><br/>
-      <sub>FOCUS · {FOCUS}</sub><br/>
-      <sub>STACK · {STACK}</sub><br/><br/>
-      <b>{len(repos)}</b> public repositories<br/>
-      <b>{total:,}</b> contributions in the last year
-    </td>
-  </tr>
-</table>
+<p align="center"><img src="./assets/pov.svg" alt="The point of view. {ROLE}, {LOCATION}. Focus: {FOCUS}." width="100%"/></p>
 
 {DIVIDER}
 
@@ -510,6 +588,7 @@ def main():
     os.makedirs(ASSETS, exist_ok=True)
     cards = {
         "hero.svg": card_hero(user, repos, avatar, days, langs),
+        "pov.svg": card_pov(repos, days),
         "highlights.svg": card_highlights(repos, langs),
         "tech.svg": card_tech(),
         "languages.svg": card_languages(langs),
