@@ -36,7 +36,7 @@
 
 ## Contribution trail
 
-<p align="center"><img src="./assets/trail.svg" alt="60 contributions in the last year" width="100%"/></p>
+<p align="center"><img src="./assets/trail.svg" alt="62 contributions in the last year" width="100%"/></p>
 
 <p align="center"><img src="./assets/shooter.svg" alt="Contribution grid as a space shooter game" width="100%"/></p>
 
@@ -49,30 +49,30 @@
 <table>
   <tr>
     <td width="50%" align="center"><img src="./assets/chess-replay.svg" alt="A chess board replaying The Opera Game, Paris 1858" width="100%"/><br/><sub>REPLAY · The Opera Game, Paris 1858. Plays by itself.</sub></td>
-    <td width="50%" align="center"><a href="#choose-your-move"><img src="./assets/chess.svg" alt="Live chess board. White to move." width="100%"/></a><br/><sub>LIVE BOARD · White to move. Pick your move from the list below.</sub></td>
+    <td width="50%" align="center"><a href="#choose-your-move"><img src="./assets/chess.svg" alt="Live chess board. Black to move." width="100%"/></a><br/><sub>LIVE BOARD · Black to move. Pick your move from the list below.</sub></td>
   </tr>
 </table>
 
 ### Choose your move
 
-<p align="center"><b>White to move.</b> Anyone with a GitHub account can play. A README cannot run a game, so pieces cannot be dragged: each move below is a link.</p>
+<p align="center"><b>Black to move.</b> Anyone with a GitHub account can play. A README cannot run a game, so pieces cannot be dragged: each move below is a link.</p>
 
 <p align="center"><sub>1. Click a move in the table below. 2. On the page that opens, press the green <b>Create</b> button without changing anything. 3. Come back in about a minute and refresh: the board has moved.</sub></p>
 
 | Piece | From | Move to |
 | --- | --- | --- |
-| Knight | b1 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cb1a3&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">Na3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cb1c3&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">Nc3</a> |
-| Knight | g1 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cg1f3&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">Nf3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cg1h3&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">Nh3</a> |
-| Pawn | a2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ca2a3&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">a3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ca2a4&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">a4</a> |
-| Pawn | b2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cb2b3&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">b3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cb2b4&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">b4</a> |
-| Pawn | c2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cc2c3&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">c3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cc2c4&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">c4</a> |
-| Pawn | d2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cd2d3&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">d3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cd2d4&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">d4</a> |
-| Pawn | e2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ce2e3&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">e3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ce2e4&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">e4</a> |
-| Pawn | f2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cf2f3&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">f3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cf2f4&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">f4</a> |
-| Pawn | g2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cg2g3&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">g3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cg2g4&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">g4</a> |
-| Pawn | h2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ch2h3&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">h3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ch2h4&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">h4</a> |
+| Pawn | a7 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ca7a5&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">a5</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ca7a6&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">a6</a> |
+| Pawn | b7 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cb7b5&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">b5</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cb7b6&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">b6</a> |
+| Pawn | c7 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cc7c5&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">c5</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cc7c6&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">c6</a> |
+| Pawn | d7 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cd7d5&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">d5</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cd7d6&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">d6</a> |
+| Pawn | e7 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ce7e5&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">e5</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ce7e6&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">e6</a> |
+| Pawn | f7 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cf7f5&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">f5</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cf7f6&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">f6</a> |
+| Pawn | g7 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cg7g5&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">g5</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cg7g6&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">g6</a> |
+| Pawn | h7 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ch7h5&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">h5</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ch7h6&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">h6</a> |
+| Knight | b8 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cb8a6&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">Na6</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cb8c6&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">Nc6</a> |
+| Knight | g8 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cg8f6&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">Nf6</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cg8h6&amp;body=Press+the+green+Create+button+to+play+this+move.+No+need+to+change+anything+here.">Nh6</a> |
 
-
+<p align="center"><sub>Recent moves: 1. e4 (<a href="https://github.com/Wajahat-Programmer">Wajahat-Programmer</a>)</sub></p>
 
 <p align="center">───── ◆ ─────</p>
 
