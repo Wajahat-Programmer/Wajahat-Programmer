@@ -47,6 +47,12 @@ jobs:
           git add README.md assets chess/game.json
           git commit -m "chore: chess move from issue #${ISSUE_NUMBER} [skip ci]"
           git push
+          {
+            echo
+            echo "![Board after the move](https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/$(git rev-parse HEAD)/assets/chess.svg)"
+            echo
+            echo "[Back to the board and the next moves](https://github.com/${GITHUB_REPOSITORY_OWNER}#choose-your-move)"
+          } >> reply.txt
       - name: Reply and close
         if: always()
         run: |

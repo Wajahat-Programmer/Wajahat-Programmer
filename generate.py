@@ -70,6 +70,9 @@ ICONS = {
     "Cursor": "cursor", "Claude Code": "claudecode",
 }
 
+# The playable board and its move list. The issue workflow stays in the repo either way.
+SHOW_LIVE_BOARD = False
+
 # The contribution snake is produced by the existing snake.yml workflow.
 SNAKE_URL = f"https://raw.githubusercontent.com/{USER}/{USER}/output/github-snake-dark.svg"
 
@@ -82,6 +85,7 @@ CYAN = "#49d6ec"
 TEXT = "#f2fbff"
 MUTED = "#9cc6d6"
 PANEL = "#0f2a40"
+SHADE = "#030912"  # dark plate behind the content of every card
 PANEL_EDGE = "#2c6480"
 SANS = "'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
 MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
@@ -91,7 +95,7 @@ LANG_COLORS = {
     "CSS": "#663399", "Python": "#3572A5", "Java": "#b07219",
     "Handlebars": "#f7931e", "Kotlin": "#A97BFF", "Swift": "#F05138",
 }
-LEVELS = ["#12304a", "#1d6b78", "#2ba58c", "#4bd3aa", "#93f7d6"]
+LEVELS = ["#1a3a56", "#1d6b78", "#2ba58c", "#4bd3aa", "#93f7d6"]
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ASSETS = os.path.join(HERE, "assets")
@@ -161,6 +165,7 @@ def frame(height, body, width=W):
   <clipPath id="card"><rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="18"/></clipPath>
   <ellipse cx="{width * 0.82:.0f}" cy="0" rx="{width * 0.45:.0f}" ry="{height * 0.9:.0f}" fill="url(#glow)" clip-path="url(#card)"/>
   <rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="18" fill="url(#grid)"/>
+  <rect x="12" y="12" width="{width - 24}" height="{height - 24}" rx="11" fill="{SHADE}" fill-opacity="0.66" stroke="{PANEL_EDGE}" stroke-opacity="0.45"/>
 {body}
 </svg>
 """
@@ -560,12 +565,20 @@ def card_chess(placement, last=None):
             if ch.isdigit():
                 continue
             white = ch.isupper()
+            here = "abcdefgh"[f - 1] + str(8 - r)
+            slide = ""
+            if last and here == last[1]:  # replay the latest move on a loop so visitors can see it
+                dx = ("abcdefgh".index(last[0][0]) - (f - 1)) * sq
+                dy = ((8 - int(last[0][1])) - r) * sq
+                slide = (f'<animateTransform attributeName="transform" type="translate" '
+                         f'values="{dx} {dy};{dx} {dy};0 0;0 0" keyTimes="0;0.2;0.5;1" dur="3.4s" '
+                         f'repeatCount="indefinite"/>')
             out.append(
-                f'  <text x="{pad + (f - 1) * sq + sq / 2}" y="{pad + r * sq + sq * 0.76:.1f}" font-size="33" '
+                f'  <g>{slide}<text x="{pad + (f - 1) * sq + sq / 2}" y="{pad + r * sq + sq * 0.76:.1f}" font-size="33" '
                 f'text-anchor="middle" fill="{"#f2fbff" if white else "#071323"}" '
                 f'stroke="{"#071323" if white else "#93f7d6"}" stroke-width="0.9" '
                 f"font-family=\"'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif\">"
-                f'{glyph[ch.lower()]}&#xFE0E;</text>')
+                f'{glyph[ch.lower()]}&#xFE0E;</text></g>')
     for i, letter in enumerate("abcdefgh"):
         out.append(label(pad + i * sq + sq / 2 - 3, size - 12, letter, size=9))
     for i in range(8):
@@ -693,6 +706,15 @@ def chess_section(game):
     if game["can_reset"]:
         extras.append(f'<p align="center"><sub><a href="{escape(issue_url("new"))}">Start a new game</a></sub></p>')
     extras = "\n\n".join(extras)
+    if not SHOW_LIVE_BOARD:
+        return f"""## Play the next move
+
+<p align="center"><img src="./assets/chess-replay.svg" alt="A chess board replaying {REPLAY_NAME}" width="420"/></p>
+
+<p align="center"><sub>{REPLAY_NAME}, replayed move by move. I like strategy on and off the screen.</sub></p>
+
+{DIVIDER}
+"""
     return f"""## Play the next move
 
 <table>

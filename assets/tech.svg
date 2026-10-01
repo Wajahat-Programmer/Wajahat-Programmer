@@ -17,6 +17,7 @@
   <clipPath id="card"><rect x="1" y="1" width="838" height="382" rx="18"/></clipPath>
   <ellipse cx="689" cy="0" rx="378" ry="346" fill="url(#glow)" clip-path="url(#card)"/>
   <rect x="1" y="1" width="838" height="382" rx="18" fill="url(#grid)"/>
+  <rect x="12" y="12" width="816" height="360" rx="11" fill="#030912" fill-opacity="0.66" stroke="#2c6480" stroke-opacity="0.45"/>
   <text x="40" y="54" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#f2fbff" text-anchor="start">Tech Stack</text>
   <text x="40" y="78" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#5ee6b8" text-anchor="start">What I build and ship with</text>
   <text x="800" y="50" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="2" fill="#9cc6d6" text-anchor="end">26 TOOLS</text>

@@ -17,39 +17,40 @@
   <clipPath id="card"><rect x="1" y="1" width="418" height="418" rx="18"/></clipPath>
   <ellipse cx="344" cy="0" rx="189" ry="378" fill="url(#glow)" clip-path="url(#card)"/>
   <rect x="1" y="1" width="418" height="418" rx="18" fill="url(#grid)"/>
+  <rect x="12" y="12" width="396" height="396" rx="11" fill="#030912" fill-opacity="0.66" stroke="#2c6480" stroke-opacity="0.45"/>
   <rect x="26" y="26" width="368" height="368" rx="12" fill="#0f2a40" stroke="#5ee6b8" stroke-opacity="0.55" stroke-width="1.5"/>
   <rect x="34" y="34" width="44" height="44" fill="#1f6f86"/>
-  <text x="56.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♜&#xFE0E;</text>
+  <g><text x="56.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♜&#xFE0E;</text></g>
   <rect x="78" y="34" width="44" height="44" fill="#123f58"/>
-  <text x="100.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♞&#xFE0E;</text>
+  <g><text x="100.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♞&#xFE0E;</text></g>
   <rect x="122" y="34" width="44" height="44" fill="#1f6f86"/>
-  <text x="144.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♝&#xFE0E;</text>
+  <g><text x="144.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♝&#xFE0E;</text></g>
   <rect x="166" y="34" width="44" height="44" fill="#123f58"/>
-  <text x="188.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♛&#xFE0E;</text>
+  <g><text x="188.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♛&#xFE0E;</text></g>
   <rect x="210" y="34" width="44" height="44" fill="#1f6f86"/>
-  <text x="232.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♚&#xFE0E;</text>
+  <g><text x="232.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♚&#xFE0E;</text></g>
   <rect x="254" y="34" width="44" height="44" fill="#123f58"/>
-  <text x="276.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♝&#xFE0E;</text>
+  <g><text x="276.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♝&#xFE0E;</text></g>
   <rect x="298" y="34" width="44" height="44" fill="#1f6f86"/>
-  <text x="320.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♞&#xFE0E;</text>
+  <g><text x="320.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♞&#xFE0E;</text></g>
   <rect x="342" y="34" width="44" height="44" fill="#123f58"/>
-  <text x="364.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♜&#xFE0E;</text>
+  <g><text x="364.0" y="67.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♜&#xFE0E;</text></g>
   <rect x="34" y="78" width="44" height="44" fill="#123f58"/>
-  <text x="56.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="56.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="78" y="78" width="44" height="44" fill="#1f6f86"/>
-  <text x="100.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="100.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="122" y="78" width="44" height="44" fill="#123f58"/>
-  <text x="144.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="144.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="166" y="78" width="44" height="44" fill="#1f6f86"/>
-  <text x="188.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="188.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="210" y="78" width="44" height="44" fill="#123f58"/>
-  <text x="232.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="232.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="254" y="78" width="44" height="44" fill="#1f6f86"/>
-  <text x="276.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="276.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="298" y="78" width="44" height="44" fill="#123f58"/>
-  <text x="320.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="320.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="342" y="78" width="44" height="44" fill="#1f6f86"/>
-  <text x="364.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="364.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="34" y="122" width="44" height="44" fill="#1f6f86"/>
   <rect x="78" y="122" width="44" height="44" fill="#123f58"/>
   <rect x="122" y="122" width="44" height="44" fill="#1f6f86"/>
@@ -72,7 +73,7 @@
   <rect x="166" y="210" width="44" height="44" fill="#123f58"/>
   <rect x="210" y="210" width="44" height="44" fill="#1f6f86"/>
   <rect x="211.5" y="211.5" width="41" height="41" fill="#5ee6b8" fill-opacity="0.22" stroke="#5ee6b8" stroke-width="2"/>
-  <text x="232.0" y="243.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><animateTransform attributeName="transform" type="translate" values="0 88;0 88;0 0;0 0" keyTimes="0;0.2;0.5;1" dur="3.4s" repeatCount="indefinite"/><text x="232.0" y="243.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="254" y="210" width="44" height="44" fill="#123f58"/>
   <rect x="298" y="210" width="44" height="44" fill="#1f6f86"/>
   <rect x="342" y="210" width="44" height="44" fill="#123f58"/>
@@ -85,37 +86,37 @@
   <rect x="298" y="254" width="44" height="44" fill="#123f58"/>
   <rect x="342" y="254" width="44" height="44" fill="#1f6f86"/>
   <rect x="34" y="298" width="44" height="44" fill="#1f6f86"/>
-  <text x="56.0" y="331.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="56.0" y="331.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="78" y="298" width="44" height="44" fill="#123f58"/>
-  <text x="100.0" y="331.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="100.0" y="331.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="122" y="298" width="44" height="44" fill="#1f6f86"/>
-  <text x="144.0" y="331.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="144.0" y="331.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="166" y="298" width="44" height="44" fill="#123f58"/>
-  <text x="188.0" y="331.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="188.0" y="331.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="210" y="298" width="44" height="44" fill="#1f6f86"/>
   <rect x="211.5" y="299.5" width="41" height="41" fill="#5ee6b8" fill-opacity="0.22" stroke="#5ee6b8" stroke-width="2"/>
   <rect x="254" y="298" width="44" height="44" fill="#123f58"/>
-  <text x="276.0" y="331.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="276.0" y="331.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="298" y="298" width="44" height="44" fill="#1f6f86"/>
-  <text x="320.0" y="331.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="320.0" y="331.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="342" y="298" width="44" height="44" fill="#123f58"/>
-  <text x="364.0" y="331.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text>
+  <g><text x="364.0" y="331.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="34" y="342" width="44" height="44" fill="#123f58"/>
-  <text x="56.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♜&#xFE0E;</text>
+  <g><text x="56.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♜&#xFE0E;</text></g>
   <rect x="78" y="342" width="44" height="44" fill="#1f6f86"/>
-  <text x="100.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♞&#xFE0E;</text>
+  <g><text x="100.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♞&#xFE0E;</text></g>
   <rect x="122" y="342" width="44" height="44" fill="#123f58"/>
-  <text x="144.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♝&#xFE0E;</text>
+  <g><text x="144.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♝&#xFE0E;</text></g>
   <rect x="166" y="342" width="44" height="44" fill="#1f6f86"/>
-  <text x="188.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♛&#xFE0E;</text>
+  <g><text x="188.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♛&#xFE0E;</text></g>
   <rect x="210" y="342" width="44" height="44" fill="#123f58"/>
-  <text x="232.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♚&#xFE0E;</text>
+  <g><text x="232.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♚&#xFE0E;</text></g>
   <rect x="254" y="342" width="44" height="44" fill="#1f6f86"/>
-  <text x="276.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♝&#xFE0E;</text>
+  <g><text x="276.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♝&#xFE0E;</text></g>
   <rect x="298" y="342" width="44" height="44" fill="#123f58"/>
-  <text x="320.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♞&#xFE0E;</text>
+  <g><text x="320.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♞&#xFE0E;</text></g>
   <rect x="342" y="342" width="44" height="44" fill="#1f6f86"/>
-  <text x="364.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♜&#xFE0E;</text>
+  <g><text x="364.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♜&#xFE0E;</text></g>
   <text x="53.0" y="408" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">A</text>
   <text x="97.0" y="408" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">B</text>
   <text x="141.0" y="408" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="2" fill="#9cc6d6" text-anchor="start">C</text>
