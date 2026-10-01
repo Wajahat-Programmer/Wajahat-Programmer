@@ -1,114 +1,102 @@
-<p align="right">
-  <img src="https://komarev.com/ghpvc/?username=wajahatkhan&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views">
-</p>
+<p align="center"><sub>AN ORIGINAL PROFILE · WAJAHAT-PROGRAMMER</sub></p>
 
-<h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=700&height=70&duration=6000&lines=Hi,+I'm+Wajahat+Ali+Khan!+👋;+Software+Engineer+(Team+Lead);&color=0e75b6&background=FFFFFF00" />
-</h1>
+<p align="center"><img src="./assets/hero.svg" alt="Wajahat Ali Khan, Head of Software Division at Revive Medical Technologies" width="100%"/></p>
 
-<h3 align="center">Passionate software engineer with leadership experience in building robust systems</h3>
+<p align="center"><b>Head of Software Division</b> · Islamabad, Pakistan</p>
 
-<br/>
+<p align="center">RPM, EHR integration, RCM and AI software for medical practices.</p>
 
-<div align="center">
- 
- 🔭 I’m currently building full-stack applications using React.js, React Native, Node.js, and MongoDB with AWS cloud infrastructure.
- 
-🌱 Expanding my skills in advanced cloud technologies and containerization with Docker.
+<p align="center"><a href="https://www.linkedin.com/in/wak-swe/">LinkedIn</a> · <a href="mailto:wajahatalikhanundoscore@gmail.com">Email</a> · <a href="https://github.com/Wajahat-Programmer?tab=repositories">Repositories</a></p>
 
-💬 Ask me about full-stack development, team leadership and scalable backend systems.
+<p align="center">───── ◆ ─────</p>
 
-🎮 A gamer who enjoys strategic gameplay and teamwork both on and off the screen.
- 
-</div>
+<table>
+  <tr>
+    <td width="62%" valign="top">
+      <h2>The point of view</h2>
+      <blockquote>Software for a medical practice has one job: get the device reading into the chart and the claim out the door, without a clinician typing it twice.</blockquote>
+      <sub>Small teams, tested edge cases, and code that is safe to run near patient data.</sub>
+    </td>
+    <td width="38%" valign="top">
+      <sub><b>PROFILE</b></sub><br/><br/>
+      <sub>ROLE · Head of Software Division</sub><br/>
+      <sub>BASED · Islamabad, Pakistan</sub><br/>
+      <sub>FOCUS · Healthcare software</sub><br/>
+      <sub>STACK · React, React Native, Node.js, TypeScript, AWS</sub><br/><br/>
+      <b>12</b> public repositories<br/>
+      <b>58</b> contributions in the last year
+    </td>
+  </tr>
+</table>
 
-<div align="center"> 
-  <a href="https://www.linkedin.com/in/wak-swe/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
-  </a>
-  <a href="mailto:wajahatalikhanundoscore@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
- 
-  <a href="https://github.com/Wajahat-Programmer" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  
-</div>
+<p align="center">───── ◆ ─────</p>
 
-<hr/>
+## In the current cut
 
-<h2 align="center">⚡ Tech Stack ⚡</h2>
+<p align="center"><img src="./assets/highlights.svg" alt="Most used languages: JavaScript · TypeScript · HTML" width="100%"/></p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native">
-  <img src="https://img.shields.io/badge/PyQt-41CD52?style=for-the-badge&logo=pyqt&logoColor=white" alt="PyQt">
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux">
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon&logoColor=white" alt="AWS">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=websocket&logoColor=61DAFB" alt="WebSockets">
-  <img src="https://img.shields.io/badge/VideoSDK-FF5C00?style=for-the-badge&logo=video.js&logoColor=white" alt="VideoSDK">
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
-  <img src="https://img.shields.io/badge/ClickUp-7B68EE?style=for-the-badge&logo=clickup&logoColor=white" alt="ClickUp">
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira">
-</p>
+<p align="center"><sub>The languages behind the most recent public work.</sub></p>
 
-<hr/>
+<p align="center">───── ◆ ─────</p>
 
-<div align="center">
-  <h2>🐍 My Contributions 🐍</h2>
-  <br>
+## Production palette
 
-  ![snake gif](https://github.com/Wajahat-Programmer/Wajahat-Programmer/blob/output/github-snake-dark.svg)
+<p align="center"><img src="./assets/tech.svg" alt="Tech stack: JavaScript, TypeScript, Python, Java, React, React Native, Redux, Tailwind CSS, PyQt, Node.js, MongoDB, MySQL, PostgreSQL, WebSockets, VideoSDK, AWS, Docker, Git, Linux, Figma, ClickUp, Jira" width="100%"/></p>
 
-<br/>
+<p align="center"><img src="./assets/languages.svg" alt="Language stack, weighted by repository" width="100%"/></p>
 
-</div>
+<p align="center"><sub>Tools chosen for the work, not the trend.</sub></p>
 
-<h2 align="center">📊 GitHub Stats</h2>
+<p align="center">───── ◆ ─────</p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Wajahat-Programmer&hide_title=false&hide_rank=false&show_icons=false&include_all_commits=true&count_private=true&disable_animations=false&theme=github_dark&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Wajahat-Programmer&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=github_dark&hide_border=false&order=2" height="150" alt="languages graph"  />
-  
-</div>
+## Featured reel
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Wajahat-Programmer&locale=en&mode=daily&theme=github_dark&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-</div>
+<p align="center"><img src="./assets/featured.svg" alt="Featured repositories" width="100%"/></p>
 
-<br/>
+<table>
+  <tr>
+    <td width="25%" valign="top"><a href="https://github.com/Wajahat-Programmer/NeuroEHR"><b>NeuroEHR</b></a><br/><br/>Description coming soon.<br/><br/><sub>TypeScript</sub></td>
+    <td width="25%" valign="top"><a href="https://github.com/Wajahat-Programmer/rcm-demo"><b>rcm-demo</b></a><br/><br/>Description coming soon.<br/><br/><sub>JavaScript</sub></td>
+    <td width="25%" valign="top"><a href="https://github.com/Wajahat-Programmer/rpm-demo"><b>rpm-demo</b></a><br/><br/>Description coming soon.<br/><br/><sub>JavaScript</sub></td>
+    <td width="25%" valign="top"><a href="https://github.com/Wajahat-Programmer/negative-testing-ccda"><b>negative-testing-ccda</b></a><br/><br/>Description coming soon.<br/><br/><sub>JavaScript</sub></td>
+  </tr>
+</table>
 
-<!--
-<h2 align="center">🏆 GitHub Trophies</h2>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Wajahat-Programmer&theme=onedark&no-frame=true&row=1&column=2" alt="GitHub Trophies" />
-</p>
--->
+<p align="center">───── ◆ ─────</p>
 
-<!--
-**Wajahat-Programmer/Wajahat-Programmer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Contribution trail
 
-Here are some ideas to get you started:
+<p align="center"><img src="./assets/trail.svg" alt="58 contributions in the last year" width="100%"/></p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">───── ◆ ─────</p>
+
+## Play the next move
+
+<p align="center"><img src="./assets/chess.svg" alt="Chess board. White to move." width="400"/></p>
+
+<p align="center"><b>White to move.</b> Anyone can play. Pick a move below, press "Submit new issue", and the board updates in about a minute.</p>
+
+| Piece | From | Move to |
+| --- | --- | --- |
+| Knight | b1 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cb1a3&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">Na3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cb1c3&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">Nc3</a> |
+| Knight | g1 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cg1f3&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">Nf3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cg1h3&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">Nh3</a> |
+| Pawn | a2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ca2a3&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">a3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ca2a4&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">a4</a> |
+| Pawn | b2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cb2b3&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">b3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cb2b4&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">b4</a> |
+| Pawn | c2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cc2c3&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">c3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cc2c4&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">c4</a> |
+| Pawn | d2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cd2d3&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">d3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cd2d4&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">d4</a> |
+| Pawn | e2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ce2e3&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">e3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ce2e4&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">e4</a> |
+| Pawn | f2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cf2f3&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">f3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cf2f4&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">f4</a> |
+| Pawn | g2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cg2g3&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">g3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Cg2g4&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">g4</a> |
+| Pawn | h2 | <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ch2h3&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">h3</a> · <a href="https://github.com/Wajahat-Programmer/Wajahat-Programmer/issues/new?title=chess%7Cmove%7Ch2h4&amp;body=Press+%22Submit+new+issue%22+to+play.+No+need+to+change+anything+here.">h4</a> |
+
+
+
+<p align="center">───── ◆ ─────</p>
+
+<p align="center"><sub>THE NEXT SCENE</sub></p>
+
+<h2 align="center">Keep the story moving</h2>
+
+<p align="center">I enjoy working with people who care about the details, share the context, and ship something useful.</p>
+
+<p align="center"><a href="https://www.linkedin.com/in/wak-swe/">LinkedIn</a> · <a href="mailto:wajahatalikhanundoscore@gmail.com">Email</a></p>

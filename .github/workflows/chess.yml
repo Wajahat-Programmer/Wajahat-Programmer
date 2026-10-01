@@ -1,0 +1,55 @@
+name: Chess move
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: profile-readme
+  cancel-in-progress: false
+
+jobs:
+  move:
+    if: startsWith(github.event.issue.title, 'chess|')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      # Passed through the environment, never interpolated into a script.
+      ISSUE_TITLE: ${{ github.event.issue.title }}
+      ISSUE_USER: ${{ github.event.issue.user.login }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install chess==1.11.2
+      - name: Apply the move
+        id: move
+        run: |
+          set +e
+          python chess_game.py > reply.txt
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+      - name: Redraw the profile
+        if: steps.move.outputs.code == '0'
+        run: python generate.py
+      - name: Commit the new position
+        if: steps.move.outputs.code == '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets chess/game.json
+          git commit -m "chore: chess move from issue #${ISSUE_NUMBER} [skip ci]"
+          git push
+      - name: Reply and close
+        if: always()
+        run: |
+          test -s reply.txt || echo "Something went wrong while playing this move. Please try again." > reply.txt
+          gh issue comment "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --body-file reply.txt
+          gh issue close "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY"
