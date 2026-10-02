@@ -1,5 +1,5 @@
 {
-  "fen": "rnbqkbnr/p1pppppp/1p6/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+  "fen": "rnbqkbnr/p1pppppp/1p6/8/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2",
   "history": [
     {
       "n": 1,
@@ -14,6 +14,13 @@
       "san": "b6",
       "uci": "b7b6",
       "by": "hussainahmad2"
+    },
+    {
+      "n": 2,
+      "color": "White",
+      "san": "Nc3",
+      "uci": "b1c3",
+      "by": "Wajahat-Programmer"
     }
   ],
   "finished": 0,

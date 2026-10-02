@@ -38,7 +38,6 @@
   <rect x="34" y="78" width="44" height="44" fill="#123f58"/>
   <g><text x="56.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="78" y="78" width="44" height="44" fill="#1f6f86"/>
-  <rect x="79.5" y="79.5" width="41" height="41" fill="#5ee6b8" fill-opacity="0.22" stroke="#5ee6b8" stroke-width="2"/>
   <rect x="122" y="78" width="44" height="44" fill="#123f58"/>
   <g><text x="144.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="166" y="78" width="44" height="44" fill="#1f6f86"/>
@@ -53,8 +52,7 @@
   <g><text x="364.0" y="111.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="34" y="122" width="44" height="44" fill="#1f6f86"/>
   <rect x="78" y="122" width="44" height="44" fill="#123f58"/>
-  <rect x="79.5" y="123.5" width="41" height="41" fill="#5ee6b8" fill-opacity="0.22" stroke="#5ee6b8" stroke-width="2"/>
-  <g><animateTransform attributeName="transform" type="translate" values="0 -44;0 -44;0 0;0 0" keyTimes="0;0.2;0.5;1" dur="3.4s" repeatCount="indefinite"/><text x="100.0" y="155.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
+  <g><text x="100.0" y="155.4" font-size="33" text-anchor="middle" fill="#071323" stroke="#93f7d6" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♟&#xFE0E;</text></g>
   <rect x="122" y="122" width="44" height="44" fill="#1f6f86"/>
   <rect x="166" y="122" width="44" height="44" fill="#123f58"/>
   <rect x="210" y="122" width="44" height="44" fill="#1f6f86"/>
@@ -81,6 +79,8 @@
   <rect x="34" y="254" width="44" height="44" fill="#123f58"/>
   <rect x="78" y="254" width="44" height="44" fill="#1f6f86"/>
   <rect x="122" y="254" width="44" height="44" fill="#123f58"/>
+  <rect x="123.5" y="255.5" width="41" height="41" fill="#5ee6b8" fill-opacity="0.22" stroke="#5ee6b8" stroke-width="2"/>
+  <g><animateTransform attributeName="transform" type="translate" values="-44 88;-44 88;0 0;0 0" keyTimes="0;0.2;0.5;1" dur="3.4s" repeatCount="indefinite"/><text x="144.0" y="287.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♞&#xFE0E;</text></g>
   <rect x="166" y="254" width="44" height="44" fill="#1f6f86"/>
   <rect x="210" y="254" width="44" height="44" fill="#123f58"/>
   <rect x="254" y="254" width="44" height="44" fill="#1f6f86"/>
@@ -104,7 +104,7 @@
   <rect x="34" y="342" width="44" height="44" fill="#123f58"/>
   <g><text x="56.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♜&#xFE0E;</text></g>
   <rect x="78" y="342" width="44" height="44" fill="#1f6f86"/>
-  <g><text x="100.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♞&#xFE0E;</text></g>
+  <rect x="79.5" y="343.5" width="41" height="41" fill="#5ee6b8" fill-opacity="0.22" stroke="#5ee6b8" stroke-width="2"/>
   <rect x="122" y="342" width="44" height="44" fill="#123f58"/>
   <g><text x="144.0" y="375.4" font-size="33" text-anchor="middle" fill="#f2fbff" stroke="#071323" stroke-width="0.9" font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', 'Noto Sans Symbols2', serif">♝&#xFE0E;</text></g>
   <rect x="166" y="342" width="44" height="44" fill="#1f6f86"/>
