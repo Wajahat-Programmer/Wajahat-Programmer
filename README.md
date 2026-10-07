@@ -36,7 +36,7 @@
 
 ## Contribution trail
 
-<p align="center"><img src="./assets/trail.svg" alt="65 contributions in the last year" width="100%"/></p>
+<p align="center"><img src="./assets/trail.svg" alt="70 contributions in the last year" width="100%"/></p>
 
 <p align="center"><img src="./assets/shooter.svg" alt="Contribution grid as a space shooter game" width="100%"/></p>
 

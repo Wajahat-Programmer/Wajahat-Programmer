@@ -20,25 +20,25 @@
   <rect x="12" y="12" width="816" height="230" rx="11" fill="#030912" fill-opacity="0.66" stroke="#2c6480" stroke-opacity="0.45"/>
   <text x="40" y="54" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#f2fbff" text-anchor="start">Language Stack</text>
   <text x="40" y="78" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#5ee6b8" text-anchor="start">Repository-weighted technologies</text>
-  <text x="800" y="50" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="2" fill="#9cc6d6" text-anchor="end">12 REPOSITORIES</text>
+  <text x="800" y="50" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="2" fill="#9cc6d6" text-anchor="end">13 REPOSITORIES</text>
   <circle cx="46" cy="110" r="5" fill="#f1e05a"/>
   <text x="62" y="114" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#f2fbff" text-anchor="start">JavaScript</text>
   <rect x="200" y="103" width="520" height="10" rx="5" fill="#0f2a40" stroke="#2c6480" stroke-width="0.8"/>
-  <rect x="200" y="103" width="390" height="10" rx="5" fill="#f1e05a"/>
-  <text x="800" y="114" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#9cc6d6" text-anchor="end">75%</text>
+  <rect x="200" y="103" width="360" height="10" rx="5" fill="#f1e05a"/>
+  <text x="800" y="114" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#9cc6d6" text-anchor="end">69%</text>
   <circle cx="46" cy="144" r="5" fill="#3178c6"/>
   <text x="62" y="148" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#f2fbff" text-anchor="start">TypeScript</text>
   <rect x="200" y="137" width="520" height="10" rx="5" fill="#0f2a40" stroke="#2c6480" stroke-width="0.8"/>
-  <rect x="200" y="137" width="43" height="10" rx="5" fill="#3178c6"/>
-  <text x="800" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#9cc6d6" text-anchor="end">8%</text>
+  <rect x="200" y="137" width="80" height="10" rx="5" fill="#3178c6"/>
+  <text x="800" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#9cc6d6" text-anchor="end">15%</text>
   <circle cx="46" cy="178" r="5" fill="#e34c26"/>
   <text x="62" y="182" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#f2fbff" text-anchor="start">HTML</text>
   <rect x="200" y="171" width="520" height="10" rx="5" fill="#0f2a40" stroke="#2c6480" stroke-width="0.8"/>
-  <rect x="200" y="171" width="43" height="10" rx="5" fill="#e34c26"/>
+  <rect x="200" y="171" width="40" height="10" rx="5" fill="#e34c26"/>
   <text x="800" y="182" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#9cc6d6" text-anchor="end">8%</text>
   <circle cx="46" cy="212" r="5" fill="#f7931e"/>
   <text x="62" y="216" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#f2fbff" text-anchor="start">Handlebars</text>
   <rect x="200" y="205" width="520" height="10" rx="5" fill="#0f2a40" stroke="#2c6480" stroke-width="0.8"/>
-  <rect x="200" y="205" width="43" height="10" rx="5" fill="#f7931e"/>
+  <rect x="200" y="205" width="40" height="10" rx="5" fill="#f7931e"/>
   <text x="800" y="216" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#9cc6d6" text-anchor="end">8%</text>
 </svg>
